@@ -18,3 +18,6 @@ Thumbs.db
 
 # cSpell configuration
 .cspell/
+
+# Ignore VS Code settings
+.vscode/
