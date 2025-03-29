@@ -12,7 +12,7 @@ const Portfolio: React.FC = () => {
       <div className="portfolio__item weather-dashboard">
           <h3>Weather Dashboard</h3>
           <a href="https://github.com/heimsharon/Weather-Dashboard-API-Usage" target="_blank" rel="noopener noreferrer" className="github-link">
-            <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
+            <img src="./assets/images/github-logo5.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://weather-api-mod-9.onrender.com/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
