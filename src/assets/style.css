@@ -247,7 +247,7 @@
   .portfolio__item .deployed-link {
     margin-top: auto;
     color: var(--accent);
-    font-size: 1.0rem;
+    font-size: 1.1rem;
   }
 
   .portfolio__item .deployed-link:hover {
@@ -298,7 +298,7 @@
     max-width: 500px;
     padding: 20px;
     border-radius: 8px;
-    background-color: var(--primary);
+    background-color: var(--muted);
     color: var(--dark);
     position: relative;
     margin: 80px 0 0 -375px; /* Move the form down and to the left */
