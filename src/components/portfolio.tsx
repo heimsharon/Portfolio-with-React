@@ -47,7 +47,7 @@ const Portfolio: React.FC = () => {
           <a href="https://github.com/bans-07/Aqua-Buddy" target="_blank" rel="noopener noreferrer" className="github-link">
           <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
-          <a href="https://example-deployed-link.com" target="_blank" rel="noopener noreferrer" className="deployed-link">
+          <a href="https://bans-07.github.io/Aqua-Buddy/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
           </a>
         </div>

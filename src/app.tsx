@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <Header />
       <a href="/about-me">About Me</a>
       <Routes>
-        <Route path="/" element={<Navigate to="Aboutme" />} />
+        <Route path="/" element={<Navigate to="/about-me" />} />
         <Route path="/about-me" element={<Aboutme />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
