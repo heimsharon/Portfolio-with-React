@@ -86,7 +86,7 @@ header h1 {
 header nav a {
   color: var(--light);
   padding: 10px 15px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   transition: background-color 0.3s ease;
 }
 
@@ -163,64 +163,64 @@ header nav a:hover {
           About Me Styles
   ===========================*/
 
-.about-me {
-  background-image: url('./assets/images/infodesk5.JPG');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--light);
-  text-align: center;
-  padding: 20px;
-}
-
-.about-me__content {
-  background-color: rgba(9, 0, 0, 0.7);
-  /* Semi-transparent overlay */
-  padding: 20px;
-  max-width: 80%;
-  text-align: center;
-  color: var(--light);
-  position: relative;
-  /* Enable positioning for pseudo-elements */
-}
-
-.about-me__content::before,
-.about-me__content::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  /* Width of the corner decoration */
-  height: 20px;
-  /* Height of the corner decoration */
-  border: 3px solid rgb(172, 153, 42);
-  /* Gold border */
-  z-index: 1;
-}
-
-.about-me__content::before {
-  top: -5px;
-  /* Adjust to position above the top-right corner */
-  right: -5px;
-  /* Adjust to position right of the top-right corner */
-  border-left: none;
-  border-bottom: none;
-}
-
-.about-me__content::after {
-  bottom: -5px;
-  /* Adjust to position below the bottom-left corner */
-  left: -5px;
-  /* Adjust to position left of the bottom-left corner */
-  border-right: none;
-  border-top: none;
-}
-
+  .about-me {
+    background-image: url('./assets/images/infodesk5.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-me__content {
+    background-color: rgba(9, 0, 0, 0.7);
+    /* Semi-transparent overlay */
+    padding: 20px;
+    max-width: 80%;
+    text-align: center;
+    color: var(--light);
+    position: relative;
+    /* Enable positioning for pseudo-elements */
+  }
+  
+  .about-me__content::before,
+  .about-me__content::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    /* Width of the corner decoration */
+    height: 20px;
+    /* Height of the corner decoration */
+    border: 3px solid rgb(172, 153, 42);
+    /* Gold border */
+    z-index: 1;
+  }
+  
+  .about-me__content::before {
+    top: -5px;
+    /* Adjust to position above the top-right corner */
+    right: -5px;
+    /* Adjust to position right of the top-right corner */
+    border-left: none;
+    border-bottom: none;
+  }
+  
+  .about-me__content::after {
+    bottom: -5px;
+    /* Adjust to position below the bottom-left corner */
+    left: -5px;
+    /* Adjust to position left of the bottom-left corner */
+    border-right: none;
+    border-top: none;
+  }
+  
 /*==========================
-          Portfolio Styles
+        Portfolio Styles
   ===========================*/
 #portfolio {
   margin: 20px 0;
@@ -264,7 +264,7 @@ header nav a:hover {
 }
 
 .portfolio__item h3 {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-bottom: 10px;
   color: var(--accent);
   /* Apply the accent color */
@@ -280,19 +280,25 @@ header nav a:hover {
 
 /* Increase the size of the GitHub logo */
 .github-icon {
-  width: 80px;
+  width: 90px;
   /* Increase the width of the image */
-  height: 80px;
+  height: 90px;
   /* Increase the height of the image */
   object-fit: contain;
   /* Ensure the image fits without distortion */
   cursor: pointer;
   /* Change cursor to pointer for better UX */
 }
+
+.github-icon:hover {
+  transform: scale(1.1);
+  /* Slightly increase size on hover for better visibility */
+  transition: transform 0.3s ease;
+}
 .deployed-link {
-  font-size: 0.9rem; /* Adjust font size if needed */
-  color: var(--accent); /* Default color is the accent color */
-  font-weight: bold; /* Make the font thicker */
+  font-size: 1.5rem; /* Adjust font size if needed */
+  color:#a62374;  /* Default color is the accent color */
+  font-weight: 600 ; /* Make the font thicker */
   padding: 5px 10px;
   border-radius: 4px;
   margin-top: 10px;
@@ -300,7 +306,7 @@ header nav a:hover {
 }
 
 .portfolio__item:hover .deployed-link {
-  color: var(--muted); /* Change to muted color on hover */
+  color: var(--neutral); /* Change to muted color on hover */
 }
 
 /* Portfolio Project Images */
@@ -313,7 +319,7 @@ header nav a:hover {
 }
 
 .vehicle-builder {
-  background-image: url("./assets/images/vehicle-builder-in-cli.png");
+  background-image: url("./assets/images/better builder.png");
 }
 
 .aqua-buddy {
@@ -335,14 +341,16 @@ header nav a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 20px;
+  gap: 640px;
+  
   /* Space between the <p> and the form */
 }
 
 .contact__content p {
   flex: 1;
   /* Allow the <p> to take up available space */
-  margin: 0;
+  margin: 0px;
+  font-size: 1.2rem;
 }
 
 .contact__form {
@@ -380,6 +388,13 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+.contact__form input[type=text]:hover,
+.contact__form input[type=email]:hover,
+.contact__form textarea:hover {
+  border-color: var(--accent); /* Change border color on hover */
+  background-color: #c3c2c2; /* Optional: Lighten the background */
+  transition: all 0.3s ease; /* Smooth transition for the hover effect */
 }
 
 input[type=submit]:hover {
@@ -454,6 +469,13 @@ input[type=submit]:hover {
     flex: 1 1 calc(50% - 20px);
     /* Make items take up 50% of the container width */
   }
+
+  body {
+    font-size: 14px;
+  }
+  .portfolio-item {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px) {
@@ -469,4 +491,8 @@ input[type=submit]:hover {
     flex: 1 1 100%;
     /* Make items take up the full width of the container */
   }
+}
+
+.resume {
+  background-image: url('https://via.placeholder.com/1920x1080'); /* Test with a placeholder image */
 }
