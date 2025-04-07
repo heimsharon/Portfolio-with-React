@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import "../assets/style.css"; 
+import "../assets/style.css";
 
 const Contact: React.FC = () => {
-  const [formErrors, setFormErrors] = useState({
+  const [ formErrors, setFormErrors ] = useState({
     name: '',
     email: '',
     message: '',
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
 
     setFormErrors((prevErrors) => ({
       ...prevErrors,
-      [name]: value.trim() === '' ? `${name.charAt(0).toUpperCase() + name.slice(1)} is required` : '',
+      [ name ]: value.trim() === '' ? `${name.charAt(0).toUpperCase() + name.slice(1)} is required` : '',
     }));
 
     if (name === 'email' && value.trim() !== '' && !validateEmail(value)) {
@@ -35,7 +35,10 @@ const Contact: React.FC = () => {
       <div className="contact section">
         <h2>Contact Me</h2>
         <div className="contact__content">
-          <p>If you have any questions or other inquiries, feel free to reach out!</p>
+          <p>
+            I’d love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out using the form below.
+            I’ll do my best to get back to you as soon as possible. Let’s create something amazing together!
+          </p>
           <form className="contact__form">
             <input
               type="text"
@@ -60,7 +63,7 @@ const Contact: React.FC = () => {
             <input type="submit" value="Send" />
           </form>
         </div>
-        
+
       </div>
     </div>
   );
