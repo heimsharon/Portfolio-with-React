@@ -4,6 +4,7 @@ import "../assets/style.css";
 const AboutMe: React.FC = () => {
   return (
     <div className="about-me">
+      <img src="/assets/images/portphoto.jpg" alt="Profile" className="about-me__image" />
       <div className="about-me__content">
         <h1>About Me</h1>
         <p>

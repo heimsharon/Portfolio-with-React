@@ -175,6 +175,7 @@ header nav a:hover {
     color: var(--light);
     text-align: center;
     padding: 20px;
+    padding-top:80px ;
   }
   
   .about-me__content {
@@ -217,6 +218,17 @@ header nav a:hover {
     /* Adjust to position left of the bottom-left corner */
     border-right: none;
     border-top: none;
+  }
+
+  .about-me__image {
+    position: absolute;
+    top: 80px; /* Increased from 20px to 80px to move it further down */
+    left: 20px;
+    width: 150px; /* Adjust size as needed */
+    height: 160px; /* Keep the image square */
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    z-index: 10; /* Ensures it appears above other elements */
   }
   
 /*==========================
