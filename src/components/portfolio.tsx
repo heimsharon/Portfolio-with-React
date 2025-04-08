@@ -12,7 +12,7 @@ const Portfolio: React.FC = () => {
       <div className="portfolio__item weather-dashboard">
           <h3>Weather Dashboard</h3>
           <a href="https://github.com/heimsharon/Weather-Dashboard-API-Usage" target="_blank" rel="noopener noreferrer" className="github-link">
-            <img src="./assets/images/github-mark.png" alt="GitHub Logo" className="github-icon" />
+            <img src="/assets/images/github-mark.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://weather-api-mod-9.onrender.com/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
@@ -23,7 +23,7 @@ const Portfolio: React.FC = () => {
         <div className="portfolio__item employee-tracker">
           <h3>Employee Data Tracker</h3>
           <a href="https://github.com/heimsharon/Employee-Tracker-Database-using-CMS" target="_blank" rel="noopener noreferrer" className="github-link">
-          <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
+          <img src="/assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://drive.google.com/file/d/1P2NRZVgAKLpoP0xVxZNU_ULT6_Km1Bsz/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
@@ -34,7 +34,7 @@ const Portfolio: React.FC = () => {
         <div className="portfolio__item portfolio-early">
           <h3>Portfolio Early</h3>
           <a href="https://github.com/heimsharon/Portfolio-Early" target="_blank" rel="noopener noreferrer" className="github-link">
-          <img src="./assets/images/github-mark.png" alt="GitHub Logo" className="github-icon" />
+          <img src="/assets/images/github-mark.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://heimsharon.github.io/Portfolio-Early/#" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
@@ -45,7 +45,7 @@ const Portfolio: React.FC = () => {
         <div className="portfolio__item aqua-buddy">
           <h3>Aqua Buddy</h3>
           <a href="https://github.com/bans-07/Aqua-Buddy" target="_blank" rel="noopener noreferrer" className="github-link">
-          <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
+          <img src="/assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://bans-07.github.io/Aqua-Buddy/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
@@ -56,7 +56,7 @@ const Portfolio: React.FC = () => {
         <div className="portfolio__item seo-optimization">
           <h3>HTML SEO</h3>
           <a href="https://github.com/heimsharon/SEO-HTML" target="_blank" rel="noopener noreferrer" className="github-link">
-          <img src="./assets/images/github-mark.png" alt="GitHub Logo" className="github-icon" />
+          <img src="/assets/images/github-mark.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://heimsharon.github.io/SEO-HTML/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
@@ -67,7 +67,7 @@ const Portfolio: React.FC = () => {
         <div className="portfolio__item payroll-tracker">
           <h3>Payroll Tracker</h3>
           <a href="https://github.com/heimsharon/Payroll-Tracker" target="_blank" rel="noopener noreferrer" className="github-link">
-          <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
+          <img src="/assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
           <a href="https://heimsharon.github.io/Payroll-Tracker/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
