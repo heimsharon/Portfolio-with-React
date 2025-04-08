@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3, FaReact } from 'react-icons/fa';
 import { SiNodedotjs, SiJavascript, SiTypescript, SiExpress, SiPostgresql } from 'react-icons/si';
-import "../assets/style.css";
+import "../styles/style.css";
 
 const Resume: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import "../assets/style.css";
+import "../styles/style.css";
 
 const Contact: React.FC = () => {
   const [ formErrors, setFormErrors ] = useState({
