@@ -94,7 +94,7 @@ To run this project locally, follow these steps:
 
 This project is deployed on **Netlify**. You can view the live site here:
 
-[Live Portfolio](https://your-netlify-url.netlify.app)
+[Live Portfolio](https://sharon-heim-portfolio.netlify.app/)
 
 To deploy the project yourself:
 
@@ -116,7 +116,7 @@ To deploy the project yourself:
 ![About Me](./assets/images/aboutmescreencap.jpg)
 
 ### Video Link
-![Contact Form](./assets/images/contact-screenshot.png)
+[Watch the Video](https://drive.google.com/file/d/1vX1O4x9TmJWZkJbcc4g5_h095JMPBg7N/view?usp=sharing)
 
 ---
 
