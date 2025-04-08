@@ -309,7 +309,7 @@ header nav a:hover {
 }
 .deployed-link {
   font-size: 1.5rem; /* Adjust font size if needed */
-  color:#a62374;  /* Default color is the accent color */
+  color:#3f8c72;  /* Default color is the accent color */
   font-weight: 600 ; /* Make the font thicker */
   padding: 5px 10px;
   border-radius: 4px;
@@ -324,14 +324,16 @@ header nav a:hover {
 /* Portfolio Project Images */
 .weather-dashboard {
   background-image: url("./assets/images/Weather-Dash-Board.png");
+  background-position: center; 
 }
 
 .employee-tracker {
   background-image: url("./assets/images/employeetracker.png");
 }
 
-.vehicle-builder {
-  background-image: url("./assets/images/better builder.png");
+.portfolio-early {
+  background-image: url("./assets/images/portfolio-early.jpg");
+  background-position: center top; 
 }
 
 .aqua-buddy {
@@ -339,7 +341,8 @@ header nav a:hover {
 }
 
 .seo-optimization {
-  background-image: url("https://images.unsplash.com/photo-1459745930869-b3d0d72c3cbb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("./assets/images/SEO-HTML-Live.jpg");
+  background-position: center bottom; 
 }
 
 .unknown-project {
