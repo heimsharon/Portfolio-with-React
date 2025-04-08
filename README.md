@@ -14,8 +14,7 @@ This portfolio is a single-page application (SPA) built using React, to showcase
   - [Installation](#installation)
   - [Usage](#usage)
   - [Deployment](#deployment)
-  - [Screenshots](#screenshots)
-    - [Portfolio Section](#portfolio-section)
+  - [Media](#media)
     - [Video Link](#video-link)
   - [License](#license)
 
@@ -110,11 +109,9 @@ To deploy the project yourself:
 
 ---
 
-## Screenshots
+## Media
 
-### Portfolio Section
-
-![About Me](./assets/images/aboutmescreencap.jpg)
+![About Me](public/assets/images/aboutmescreencap.jpg)
 
 ### Video Link
 
