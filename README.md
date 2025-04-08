@@ -1,12 +1,14 @@
 # Portfolio with React
 
-This is a portfolio website built with React to showcase web development projects and skills. The portfolio is designed to highlight your work as a developer and provide potential employers or collaborators with an easy way to view your projects and contact you.
+## Description
+
+This portfolio is a single-page application (SPA) built using React, to showcase web development projects and skills. The portfolio is designed to highlight my work as a developer and provide potential employers or collaborators with an easy way to view projects and as a point of contact. It also includes a Resume pdf link. The portfolio is fully responsive and optimized for both desktop and mobile devices.
 
 ## Table of Contents
 
 - [Portfolio with React](#portfolio-with-react)
-  - [Table of Contents](#table-of-contents)
   - [Description](#description)
+  - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
@@ -16,12 +18,6 @@ This is a portfolio website built with React to showcase web development project
     - [Portfolio Section](#portfolio-section)
     - [Video Link](#video-link)
   - [License](#license)
-
----
-
-## Description
-
-This portfolio is a single-page application (SPA) built using React. It includes sections for showcasing your projects, an "About Me" section, a contact form, and a downloadable resume. The portfolio is fully responsive and optimized for both desktop and mobile devices.
 
 ---
 
@@ -57,24 +53,26 @@ To run this project locally, follow these steps:
    git clone https://github.com/your-username/portfolio-with-react.git
 
 
-
-
 2. Navigate to the project directory:
+
    ```bash
    cd portfolio-with-react
    ```
 
 3. Install dependencies:
+
    ```bash
    npm install
    ```
 
 4. Start the development server:
+
    ```bash
    npm run dev
    ```
 
 5. Open your browser and navigate to:
+
    ```
    http://localhost:5173
    ```
@@ -99,11 +97,13 @@ This project is deployed on **Netlify**. You can view the live site here:
 To deploy the project yourself:
 
 1. Build the project:
+
    ```bash
    npm run build
    ```
 
 2. Deploy the `dist` folder to Netlify:
+
    ```bash
    npm run deploy
    ```
@@ -113,9 +113,11 @@ To deploy the project yourself:
 ## Screenshots
 
 ### Portfolio Section
+
 ![About Me](./assets/images/aboutmescreencap.jpg)
 
 ### Video Link
+
 [Watch the Video](https://drive.google.com/file/d/1vX1O4x9TmJWZkJbcc4g5_h095JMPBg7N/view?usp=sharing)
 
 ---
