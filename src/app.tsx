@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate} from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 import Aboutme from './components/aboutme';
@@ -10,9 +10,7 @@ import Resume from './components/resume';
 const App: React.FC = () => {
   return (
     <>
-    
       <Header />
-      <a href="/about-me">About Me</a>
       <Routes>
         <Route path="/" element={<Navigate to="/about-me" />} />
         <Route path="/about-me" element={<Aboutme />} />
@@ -22,7 +20,6 @@ const App: React.FC = () => {
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
       <Footer />
-    
     </>
   );
 };
