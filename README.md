@@ -14,7 +14,7 @@ This is a portfolio website built with React to showcase web development project
   - [Deployment](#deployment)
   - [Screenshots](#screenshots)
     - [Portfolio Section](#portfolio-section)
-    - [Contact Form](#contact-form)
+    - [Video Link](#video-link)
   - [License](#license)
 
 ---
@@ -56,66 +56,8 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/portfolio-with-react.git
 
-Here’s a complete `README.md` file for your project:
 
-```markdown
-# Portfolio with React
 
-This is a portfolio website built with React to showcase web development projects and skills. The portfolio is designed to highlight your work as a developer and provide potential employers or collaborators with an easy way to view your projects and contact you.
-
-## Table of Contents
-
-- [Portfolio with React](#portfolio-with-react)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Deployment](#deployment)
-  - [Screenshots](#screenshots)
-    - [Portfolio Section](#portfolio-section)
-    - [Contact Form](#contact-form)
-  - [License](#license)
-
----
-
-## Description
-
-This portfolio is a single-page application (SPA) built using React. It includes sections for showcasing your projects, an "About Me" section, a contact form, and a downloadable resume. The portfolio is fully responsive and optimized for both desktop and mobile devices.
-
----
-
-## Features
-
-- **About Me**: A section with a short bio and a photo/avatar.
-- **Portfolio**: Displays six projects with:
-  - Project titles
-  - Links to GitHub repositories
-  - Links to deployed applications
-- **Contact Form**: A form with fields for name, email, and message, including validation.
-- **Resume**: A downloadable resume and a list of proficiencies.
-- **Footer**: Links to GitHub, LinkedIn, and a third platform (e.g., Stack Overflow or Twitter).
-
----
-
-## Technologies Used
-
-- **React**: Front-end library for building the user interface.
-- **Vite**: Development environment for fast builds and hot module replacement.
-- **React Router DOM**: For navigation between sections without reloading the page.
-- **CSS**: Custom styles for a polished and responsive design.
-
----
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/portfolio-with-react.git
-   ```
 
 2. Navigate to the project directory:
    ```bash
@@ -171,9 +113,9 @@ To deploy the project yourself:
 ## Screenshots
 
 ### Portfolio Section
-![Portfolio Section](./assets/images/portfolio-screenshot.png)
+![About Me](./assets/images/aboutmescreencap.jpg)
 
-### Contact Form
+### Video Link
 ![Contact Form](./assets/images/contact-screenshot.png)
 
 ---
