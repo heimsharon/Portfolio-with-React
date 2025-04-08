@@ -21,3 +21,5 @@ Thumbs.db
 
 # Ignore VS Code settings
 .vscode/
+# Local Netlify folder
+.netlify
