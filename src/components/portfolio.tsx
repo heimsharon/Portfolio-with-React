@@ -25,7 +25,7 @@ const Portfolio: React.FC = () => {
           <a href="https://github.com/heimsharon/Employee-Tracker-Database-using-CMS" target="_blank" rel="noopener noreferrer" className="github-link">
           <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
-          <a href="https://example-deployed-link.com" target="_blank" rel="noopener noreferrer" className="deployed-link">
+          <a href="https://drive.google.com/file/d/1P2NRZVgAKLpoP0xVxZNU_ULT6_Km1Bsz/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
           </a>
         </div>
@@ -64,12 +64,12 @@ const Portfolio: React.FC = () => {
         </div>
         
         
-        <div className="portfolio__item unknown-project">
-          <h3>unknown</h3>
-          <a href="https://github.com/heimsharon/Surf-Report" target="_blank" rel="noopener noreferrer" className="github-link">
+        <div className="portfolio__item payroll-tracker">
+          <h3>Payroll Tracker</h3>
+          <a href="https://github.com/heimsharon/Payroll-Tracker" target="_blank" rel="noopener noreferrer" className="github-link">
           <img src="./assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
-          <a href="https://example-deployed-link.com" target="_blank" rel="noopener noreferrer" className="deployed-link">
+          <a href="https://heimsharon.github.io/Payroll-Tracker/" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
           </a>
         </div>

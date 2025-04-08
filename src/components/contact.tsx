@@ -50,7 +50,7 @@ const Contact: React.FC = () => {
         <h2>Contact Me</h2>
         <div className="contact__content">
           <p>
-            I’d love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out using the form below.
+            I’d love to hear from you! Whether you have a question, a project idea, or just want to connect for possible future projects, feel free to reach out using the form below.
             I’ll do my best to get back to you as soon as possible. Let’s create something amazing together!
           </p>
           <form className="contact__form" onSubmit={handleSubmit}>

@@ -1,6 +1,6 @@
 /*==========================
         Global Styles
-===========================*/
+  ==========================*/
 * {
   margin: 0;
   padding: 20px;
@@ -9,19 +9,19 @@
 
 :root {
   --primary: #183c51;
-  /* Dark Blue */
+  /*Dark Blue */
   --secondary: #716d08;
-  /* Green */
+  /*Green */
   --accent: #fcca46;
-  /* Yellow */
+  /*Yellow */
   --neutral: #a1c181;
-  /* Light Green */
+  /*Light Green */
   --muted: #366552;
-  /* Teal */
-  --light: #e3decd;
-  /* Light Background */
+  /*Teal */
+  --light: #cbc6b7;
+  /*Light Background */
   --dark: #1a1a1a;
-  /* Dark Text */
+  /*Dark Text */
 }
 
 body {
@@ -59,8 +59,8 @@ a:hover {
 }
 
 /*==========================
-          Header Styles
-  ===========================*/
+      Header Styles
+  ==========================*/
 header {
   position: fixed;
   top: 0;
@@ -96,8 +96,8 @@ header nav a:hover {
 }
 
 /*==========================
-          Footer Styles
-  ===========================*/
+        Footer Styles
+  ==========================*/
 .footer {
   position: relative;
   bottom: 0;
@@ -131,8 +131,8 @@ header nav a:hover {
 }
 
 /*==========================
-          Section Styles
-  ===========================*/
+        Section Styles
+  ==========================*/
 .section {
   margin: 25px 0;
   padding: 10px 0;
@@ -160,80 +160,86 @@ header nav a:hover {
 }
 
 /*==========================
-          About Me Styles
-  ===========================*/
+      About Me Styles
+  ==========================*/
 
-  .about-me {
-    background-image: url('./assets/images/infodesk5.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--light);
-    text-align: center;
-    padding: 20px;
-    padding-top:80px ;
-  }
-  
-  .about-me__content {
-    background-color: rgba(9, 0, 0, 0.7);
-    /* Semi-transparent overlay */
-    padding: 20px;
-    max-width: 80%;
-    text-align: center;
-    color: var(--light);
-    position: relative;
-    /* Enable positioning for pseudo-elements */
-  }
-  
-  .about-me__content::before,
-  .about-me__content::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    /* Width of the corner decoration */
-    height: 20px;
-    /* Height of the corner decoration */
-    border: 3px solid rgb(172, 153, 42);
-    /* Gold border */
-    z-index: 1;
-  }
-  
-  .about-me__content::before {
-    top: -5px;
-    /* Adjust to position above the top-right corner */
-    right: -5px;
-    /* Adjust to position right of the top-right corner */
-    border-left: none;
-    border-bottom: none;
-  }
-  
-  .about-me__content::after {
-    bottom: -5px;
-    /* Adjust to position below the bottom-left corner */
-    left: -5px;
-    /* Adjust to position left of the bottom-left corner */
-    border-right: none;
-    border-top: none;
-  }
+.about-me {
+  background-image: url('./assets/images/infodesk5.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light);
+  text-align: center;
+  padding: 20px;
+  padding-top: 80px;
+}
 
-  .about-me__image {
-    position: absolute;
-    top: 80px; /* Increased from 20px to 80px to move it further down */
-    left: 20px;
-    width: 150px; /* Adjust size as needed */
-    height: 160px; /* Keep the image square */
-    border-radius: 50%; /* Makes the image circular */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
-    z-index: 10; /* Ensures it appears above other elements */
-  }
-  
+.about-me__content {
+  background-color: rgba(9, 0, 0, 0.7);
+  /*Semi-transparent overlay */
+  padding: 20px;
+  max-width: 80%;
+  font-size: 1.3rem;
+  ;
+  text-align: center;
+  color: var(--light);
+  position: relative;
+  /*Positioning for pseudo-elements */
+}
+
+.about-me__content::before,
+.about-me__content::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  /*Width of the corner decoration */
+  height: 20px;
+  /*Height of the corner decoration */
+  border: 3px solid rgb(172, 153, 42);
+  /*Gold border */
+  z-index: 1;
+}
+
+.about-me__content::before {
+  top: -5px;
+  /*Adjust to position above top-right corner */
+  right: -5px;
+  /*Adjust to position right of top-right corner */
+  border-left: none;
+  border-bottom: none;
+}
+
+.about-me__content::after {
+  bottom: -5px;
+  /*Adjust to position below bottom-left corner */
+  left: -5px;
+  /*Adjust to position left of bottom-left corner */
+  border-right: none;
+  border-top: none;
+}
+
+.about-me__image {
+  position: absolute;
+  top: 80px;
+  /*Adjust position as needed */
+  left: 20px;
+  width: 150px;
+  /*Adjust size as needed */
+  height: 160px;
+  /*Keep the image square */
+  border-radius: 50%;
+  /*Makes the image circular */
+  z-index: 10;
+  /*Ensures it appears above other elements */
+}
+
 /*==========================
-        Portfolio Styles
-  ===========================*/
+      Portfolio Styles
+  ==========================*/
 #portfolio {
   margin: 20px 0;
 }
@@ -246,85 +252,84 @@ header nav a:hover {
 .portfolio_container {
   display: flex;
   flex-wrap: wrap;
-  /* Allow items to wrap to the next row */
+  /*Allow items to wrap to the next row */
   justify-content: center;
-  /* Center items horizontally */
+  /*Center items horizontally */
   gap: 20px;
-  /* Add space between items */
+  /*Add space between items */
   margin-top: 20px;
 }
 
-/* Increase the size of the portfolio item boxes */
+/*Increase the size of the portfolio item boxes */
 .portfolio__item {
   width: 500px;
-  /* Increase the width */
   height: 300px;
-  /* Increase the height */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* Optional: Add a border */
+  /*Add a border */
   border-radius: 8px;
-  /* Optional: Add rounded corners */
+  /*Add rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  /* Optional: Add a shadow */
+  /*Add a shadow */
   overflow: hidden;
-  /* Ensure content doesn't overflow */
+  /*Ensure content doesn't overflow */
   padding: 10px;
-  /* Add padding inside the box */
+  /*Add padding inside the box */
 }
 
 .portfolio__item h3 {
-  font-size: 1.9rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   color: var(--accent);
-  /* Apply the accent color */
+  /*Change the color of the heading */
 }
 
-/* Add a hover effect to portfolio items */
+/*Add a hover effect to portfolio items */
 .portfolio__item:hover {
   transform: scale(1.05);
-  /* Slightly increase size on hover */
+  /*Increase size on hover */
   transition: transform 0.3s ease;
-  /* Smooth transition for the hover effect */
+  /*Smooth transition for the hover effect */
 }
 
-/* Increase the size of the GitHub logo */
+/*Increase the size of the GitHub logo */
 .github-icon {
   width: 90px;
-  /* Increase the width of the image */
   height: 90px;
-  /* Increase the height of the image */
   object-fit: contain;
-  /* Ensure the image fits without distortion */
+  /*Ensure the image fits without distortion */
   cursor: pointer;
-  /* Change cursor to pointer for better UX */
+  /*Change cursor to pointer for better UX */
 }
 
 .github-icon:hover {
   transform: scale(1.1);
-  /* Slightly increase size on hover for better visibility */
+  /*Increase size on hover for better visibility */
   transition: transform 0.3s ease;
 }
+
 .deployed-link {
-  font-size: 1.5rem; /* Adjust font size if needed */
-  color:#3f8c72;  /* Default color is the accent color */
-  font-weight: 600 ; /* Make the font thicker */
+  font-size: 1.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  /*Make the font thicker */
   padding: 5px 10px;
   border-radius: 4px;
   margin-top: 10px;
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  transition: color 0.3s ease;
+  /*Smooth transition for color change */
 }
 
 .portfolio__item:hover .deployed-link {
-  color: var(--neutral); /* Change to muted color on hover */
+  color: var(--neutral);
 }
 
-/* Portfolio Project Images */
+/*Portfolio Project Images */
 .weather-dashboard {
   background-image: url("./assets/images/Weather-Dash-Board.png");
-  background-position: center; 
+  background-position: center;
 }
 
 .employee-tracker {
@@ -333,7 +338,7 @@ header nav a:hover {
 
 .portfolio-early {
   background-image: url("./assets/images/portfolio-early.jpg");
-  background-position: center top; 
+  background-position: center top;
 }
 
 .aqua-buddy {
@@ -342,43 +347,43 @@ header nav a:hover {
 
 .seo-optimization {
   background-image: url("./assets/images/SEO-HTML-Live.jpg");
-  background-position: center bottom; 
+  background-position: center bottom;
 }
 
-.unknown-project {
-  background-image: url("https://images.unsplash.com/photo-1535191059345-242e8e9c6c4d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+.payroll-tracker {
+  background-image: url("./assets/images/payroll-tracker.jpg");
+  background-position: center bottom;
 }
 
 /*==========================
-          Contact Styles
-  ===========================*/
+       Contact Styles
+  ==========================*/
 .contact__content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 640px;
-  
-  /* Space between the <p> and the form */
+  /*Space between the <p> and the form */
 }
 
 .contact__content p {
   flex: 1;
-  /* Allow the <p> to take up available space */
+  /*Allow the <p> to take up available space */
   margin: 0px;
   font-size: 1.2rem;
 }
 
 .contact__form {
   flex: 1;
-  /* Allow the form to take up available space */
+  /*Allow the form to take up available space */
   max-width: 500px;
   padding: 20px;
   border-radius: 8px;
   background-color: var(--primary);
   color: var(--dark);
   position: relative;
-  margin: 80px 0 0 -375px;
-  /* Move the form down and to the left */
+  margin: 380px 0 0 -575px;
+  /*Move the form down and to the left */
 }
 
 .contact__form h2 {
@@ -398,22 +403,42 @@ textarea {
 
 input[type=submit] {
   background-color: var(--secondary);
-  color: white;
+  color: var(--muted);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
+
 .contact__form input[type=text]:hover,
 .contact__form input[type=email]:hover,
 .contact__form textarea:hover {
-  border-color: var(--accent); /* Change border color on hover */
-  background-color: #c3c2c2; /* Optional: Lighten the background */
-  transition: all 0.3s ease; /* Smooth transition for the hover effect */
+  border-color: var(--accent);
+  /*Change border color on hover */
+  background-color: #c3c2c2;
+  /*Darken the background */
+  transition: all 0.3s ease;
+  /*Smooth transition for the hover effect */
 }
 
 input[type=submit]:hover {
   background-color: var(--accent);
+}
+
+.contact__form button {
+  background-color: var(--secondary); /* Set the background color */
+  color: var(--light); /* Set the text color */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact__form button:hover {
+  background-color: var(--accent); /* Change background color on hover */
+  color: var(--dark); /* Change text color on hover */
 }
 
 .contact-image {
@@ -430,20 +455,47 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+
 /*==========================
-          Error Styles
+      Resume Styles
+  ==========================*/
+.resume {
+  background-image: url('/assets/images/flat-lay-desk.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /*Ensures the section covers the full viewport height */
+  font-size: 1.2rem;
+  /*Increase the base font size */
+  line-height: 1.8;
+  /*Adjust line height for better readability */
+}
+
+.resume h2 {
+  font-size: 2.5rem;
+  /*Increase the size of the heading */
+}
+
+.resume p {
+  font-size: 1.5rem;
+  /*Increase the size of paragraph text */
+}
+
+/*==========================
+      Error Styles
   ===========================*/
 .error {
-  color: var(--accent);
-  /* Use the accent color */
+  color: rgba(192, 48, 48, 0.906);
+  font-weight: bold;
   font-size: 0.9rem;
   margin-top: 5px;
   display: block;
 }
 
 /*==========================
-          Responsive Design
-  ===========================*/
+      Responsive Design
+  ==========================*/
 @media (max-width: 768px) {
   .flex-item {
     flex-basis: 100%;
@@ -456,40 +508,64 @@ input[type=submit]:hover {
 
   .contact__form {
     margin: 20px auto;
-    /* Center the box horizontally and add space at the top */
+    /*Center the box horizontally and add space at the top */
   }
 
   .contact__content {
     flex-direction: column;
-    /* Stack the <p> and form vertically */
+    /*Stack the <p> and form vertically */
     align-items: center;
-    /* Center align the content */
+    /*Center align the content */
   }
 
   .contact__content p {
     text-align: center;
-    /* Center the text */
+    /*Center the text */
     margin-bottom: 20px;
-    /* Add spacing below the <p> */
+    /*Add spacing below the <p> */
   }
 
   .contact__form {
     width: 100%;
-    /* Make the form take up the full width */
+    /*Make the form take up the full width */
     max-width: none;
-    /* Remove the max-width restriction */
+    /*Remove the max-width restriction */
   }
 
   .flex-item {
     flex: 1 1 calc(50% - 20px);
-    /* Make items take up 50% of the container width */
+    /*Make items take up 50% of the container width */
   }
 
   body {
     font-size: 14px;
   }
+
   .portfolio-item {
     flex-direction: column;
+  }
+
+  header {
+    flex-direction: column; /* Stack the header content vertically */
+    align-items: center; /* Center align the items */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column; /* Stack the navigation links vertically */
+    align-items: center; /* Center align the links */
+    gap: 10px; /* Add spacing between links */
+  }
+
+  header nav a {
+    padding: 10px 0; /* Adjust padding for better spacing */
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  /* Add margin to the content below the header */
+  body {
+    margin-top: calc(10px + 100px); /* Adjust based on the header's height */
   }
 }
 
@@ -504,24 +580,6 @@ input[type=submit]:hover {
 
   .flex-item {
     flex: 1 1 100%;
-    /* Make items take up the full width of the container */
+    /*Make items take up the full width of the container */
   }
-}
-
-.resume {
-  background-image: url('/assets/images/flat-lay-desk.avif'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh; /* Ensures the section covers the full viewport height */
-  font-size: 1.2rem; /* Increase the base font size */
-  line-height: 1.8; /* Adjust line height for better readability */
-}
-
-.resume h2 {
-  font-size: 2.5rem; /* Increase the size of the heading */
-}
-
-.resume p {
-  font-size: 1.5rem; /* Increase the size of paragraph text */
 }
