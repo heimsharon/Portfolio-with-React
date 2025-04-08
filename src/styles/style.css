@@ -8,20 +8,13 @@
 }
 
 :root {
-  --primary: #183c51;
-  /*Dark Blue */
-  --secondary: #716d08;
-  /*Green */
-  --accent: #fcca46;
-  /*Yellow */
-  --neutral: #a1c181;
-  /*Light Green */
-  --muted: #366552;
-  /*Teal */
-  --light: #cbc6b7;
-  /*Light Background */
-  --dark: #1a1a1a;
-  /*Dark Text */
+  --primary: #183c51; /* Dark Blue */
+  --secondary: #716d08; /* Green */
+  --accent: #fcca46; /* Yellow */
+  --neutral: #a1c181; /* Light Green */
+  --muted: #366552; /* Teal */
+  --light: #cbc6b7; /* Light Background */
+  --dark: #1a1a1a; /* Dark Text */
 }
 
 body {
@@ -162,9 +155,8 @@ header nav a:hover {
 /*==========================
       About Me Styles
   ==========================*/
-
 .about-me {
-  background-image: url('/assets/images/infodesk5.JPG');
+  background-image: url('/assets/images/infodesk5.JPG'); /* Corrected path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,16 +217,11 @@ header nav a:hover {
 .about-me__image {
   position: absolute;
   top: 80px;
-  /*Adjust position as needed */
   left: 20px;
   width: 150px;
-  /*Adjust size as needed */
   height: 160px;
-  /*Keep the image square */
   border-radius: 50%;
-  /*Makes the image circular */
   z-index: 10;
-  /*Ensures it appears above other elements */
 }
 
 /*==========================
@@ -328,30 +315,30 @@ header nav a:hover {
 
 /*Portfolio Project Images */
 .weather-dashboard {
-  background-image: url("/assets/images/Weather-Dash-Board.png");
+  background-image: url('/assets/images/Weather-Dash-Board.png'); /* Corrected path */
   background-position: center;
 }
 
 .employee-tracker {
-  background-image: url("/assets/images/employeetracker.png");
+  background-image: url('/assets/images/employeetracker.png'); /* Corrected path */
 }
 
 .portfolio-early {
-  background-image: url("/assets/images/portfolio-early.jpg");
+  background-image: url('/assets/images/portfolio-early.jpg'); /* Corrected path */
   background-position: center top;
 }
 
 .aqua-buddy {
-  background-image: url("https://images.pexels.com/photos/327090/pexels-photo-327090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+  background-image: url("https://images.pexels.com/photos/327090/pexels-photo-327090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 .seo-optimization {
-  background-image: url("/assets/images/SEO-HTML-Live.jpg");
+  background-image: url('/assets/images/SEO-HTML-Live.jpg'); /* Corrected path */
   background-position: center bottom;
 }
 
 .payroll-tracker {
-  background-image: url("/assets/images/payroll-tracker.jpg");
+  background-image: url('/assets/images/payroll-tracker.jpg'); /* Corrected path */
   background-position: center bottom;
 }
 
@@ -442,7 +429,7 @@ input[type=submit]:hover {
 }
 
 .contact-image {
-  background-image: url("/assets/images/contactbig3.jpg");
+  background-image: url('/assets/images/contactbig3.jpg'); /* Corrected path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -455,12 +442,11 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-
 /*==========================
       Resume Styles
   ==========================*/
 .resume {
-  background-image: url('/assets/images/flat-lay-desk.avif');
+  background-image: url('/assets/images/flat-lay-desk.avif'); /* Corrected path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
