@@ -25,7 +25,7 @@ const Portfolio: React.FC = () => {
           <a href="https://github.com/heimsharon/Employee-Tracker-Database-using-CMS" target="_blank" rel="noopener noreferrer" className="github-link">
           <img src="/assets/images/github-mark-white.png" alt="GitHub Logo" className="github-icon" />
           </a>
-          <a href="https://drive.google.com/file/d/1P2NRZVgAKLpoP0xVxZNU_ULT6_Km1Bsz/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="deployed-link">
+          <a href="https://drive.google.com/file/d/1NT2wX6xkN-Jq-wIeR9K-pQviQRZ17PaW/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="deployed-link">
             View Deployed Project
           </a>
         </div>
