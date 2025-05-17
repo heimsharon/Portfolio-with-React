@@ -1,117 +1,128 @@
 # Portfolio with React
 
-## Description
+_A single-page portfolio app built with React, Vite, and TypeScript, featuring project showcases, a contact form, and a downloadable resume._
 
-This portfolio is a single-page application (SPA) built using React, to showcase web development projects and skills. The portfolio is designed to highlight my work as a developer and provide potential employers or collaborators with an easy way to view projects and as a point of contact. It also includes a Resume pdf link. The portfolio is fully responsive and optimized for both desktop and mobile devices.
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Netlify Deploy](https://img.shields.io/badge/Deployed-Netlify-blue)
+![React](https://img.shields.io/badge/React-18+-blue)
+![Vite](https://img.shields.io/badge/Vite-6+-purple)
+![Student Project](https://img.shields.io/badge/student_project-s_heim-yellow)
+
+**Live Demo:** [Portfolio on Netlify](https://sharon-heim-portfolio.netlify.app/)
+
+---
 
 ## Table of Contents
 
 - [Portfolio with React](#portfolio-with-react)
-  - [Description](#description)
   - [Table of Contents](#table-of-contents)
+  - [Description](#description)
   - [Features](#features)
+  - [Prerequisites](#prerequisites)
   - [Technologies Used](#technologies-used)
+  - [Quick Start](#quick-start)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Deployment](#deployment)
+  - [Screenshots](#screenshots)
+    - [About Me](#about-me)
   - [Media](#media)
     - [Video Link](#video-link)
   - [License](#license)
+  - [Notes](#notes)
+  - [Contributing, Support, and FAQ](#contributing-support-and-faq)
+  - [Acknowledgments](#acknowledgments)
+  - [Author](#author)
+
+---
+
+## Description
+
+This portfolio is a single-page application (SPA) built using React and Vite. It showcases my web development projects, skills, and resume, and provides an easy way for potential employers or collaborators to get in touch. The site is fully responsive and optimized for both desktop and mobile devices.
 
 ---
 
 ## Features
 
-- **About Me**: A section with a short bio and a photo/avatar.
-- **Portfolio**: Displays six projects with:
-  - Project titles
-  - Links to GitHub repositories
-  - Links to deployed applications
-- **Contact Form**: A form with fields for name, email, and message, including validation.
-- **Resume**: A downloadable resume and a list of proficiencies.
-- **Footer**: Links to GitHub, LinkedIn, and a third platform (e.g., Stack Overflow or Twitter).
+-   **About Me:** Short bio and profile photo.
+-   **Portfolio:** Six featured projects with titles, GitHub links, and deployed app links.
+-   **Contact Form:** Name, email, and message fields with validation.
+-   **Resume:** Downloadable resume and a list of technical proficiencies.
+-   **Footer:** Social links to GitHub, LinkedIn, and Stack Overflow.
+
+---
+
+## Prerequisites
+
+-   [Node.js](https://nodejs.org/) (v18 or higher)
+-   [npm](https://www.npmjs.com/) (comes with Node.js)
+-   A modern web browser
 
 ---
 
 ## Technologies Used
 
-- **React**: Front-end library for building the user interface.
-- **Vite**: Development environment for fast builds and hot module replacement.
-- **React Router DOM**: For navigation between sections without reloading the page.
-- **CSS**: Custom styles for a polished and responsive design.
+-   [React](https://reactjs.org/)
+-   [Vite](https://vitejs.dev/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [React Router DOM](https://reactrouter.com/)
+-   [React Icons](https://react-icons.github.io/react-icons/)
+-   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (custom styles)
+
+---
+
+## Quick Start
+
+> Clone the repository using Git, or download it as a ZIP file from GitHub.
+> You can browse the code, view commit history, open issues, and submit pull requests.
 
 ---
 
 ## Installation
 
-To run this project locally, follow these steps:
+1. **Clone the repository:**
 
-1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/portfolio-with-react.git
+    cd portfolio-with-react
+    ```
 
-   ```bash
-   git clone https://github.com/your-username/portfolio-with-react.git
+2. **Install dependencies:**
 
+    ```bash
+    npm install
+    ```
 
-2. Navigate to the project directory:
+3. **Start the development server:**
 
-   ```bash
-   cd portfolio-with-react
-   ```
+    ```bash
+    npm run dev
+    ```
 
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open your browser and navigate to:
-
-   ```
-   http://localhost:5173
-   ```
+4. **Open your browser and visit:**
+    ```
+    http://localhost:5173
+    ```
 
 ---
 
 ## Usage
 
-- Navigate through the portfolio using the navigation bar.
-- View project details in the "Portfolio" section.
-- Use the contact form to send a message (validation included).
-- Download the resume from the "Resume" section.
+-   Use the navigation bar to explore the About Me, Portfolio, Contact, and Resume sections.
+-   View project details and links in the Portfolio section.
+-   Submit a message using the Contact form (client-side validation included).
+-   Download the resume from the Resume section.
 
 ---
 
-## Deployment
+## Screenshots
 
-This project is deployed on **Netlify**. You can view the live site here:
+### About Me
 
-[Live Portfolio](https://sharon-heim-portfolio.netlify.app/)
-
-To deploy the project yourself:
-
-1. Build the project:
-
-   ```bash
-   npm run build
-   ```
-
-2. Deploy the `dist` folder to Netlify:
-
-   ```bash
-   npm run deploy
-   ```
+![About Me](public/assets/images/aboutmescreencap.jpg)
 
 ---
 
 ## Media
-
-![About Me](public/assets/images/aboutmescreencap.jpg)
 
 ### Video Link
 
@@ -121,4 +132,49 @@ To deploy the project yourself:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](./LICENSE.txt).
+
+You are free to use, modify, and distribute this software for personal or commercial purposes, provided you include the original copyright
+and license notice in any copies or substantial portions of the software.
+
+See the [MIT License text](https://opensource.org/licenses/MIT) for full details.
+
+---
+
+## Notes
+
+-   The codebase is commented for educational purposes and future reference.
+-   The GitHub repository allows you to download, fork, or contribute to the project as needed.
+
+---
+
+## Contributing, Support, and FAQ
+
+-   **Contributions:** Pull requests are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
+-   **Support:** If you encounter any issues or have suggestions, please open an issue on GitHub.
+-   **FAQ:**
+    -   _How do I run the program?_
+        See the [Installation](#installation) and [Usage](#usage) sections above.
+    -   _Can I use this for my own project?_
+        Yes, this project is MIT licensed. See the [License](#license) section.
+    -   _I'm having trouble running the app!_
+        -   Double-check your Node.js and npm versions.
+        -   Make sure all dependencies are installed.
+        -   If you see missing module errors, try running `npm install` again.
+
+---
+
+## Acknowledgments
+
+Portions of this project were developed as part of the Full Stack Web Development program.
+
+---
+
+## Author
+
+Created by Sharon Heim.
+For questions or suggestions, please visit my [GitHub profile](https://github.com/heimsharon).
+
+---
+
+© 2025 Sharon Heim
