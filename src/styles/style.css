@@ -269,7 +269,7 @@ header nav a:hover {
 .portfolio__item h3 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: var(--primary);
+  color: var(--accent);
   /*Change the color of the heading */
 }
 
@@ -299,7 +299,7 @@ header nav a:hover {
 
 .deployed-link {
   font-size: 1.8rem;
-  color: var(--accent);
+  color: var(--primary);
   font-weight: 600;  
   padding: 5px 10px;
   border-radius: 4px;
