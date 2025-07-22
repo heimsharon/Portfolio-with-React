@@ -156,7 +156,7 @@ header nav a:hover {
       About Me Styles
   ==========================*/
 .about-me {
-  background-image: url('/assets/images/infodesk5.JPG'); /* Corrected path */
+  background-image: url('/assets/images/infodesk5.JPG'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@ header nav a:hover {
 .portfolio__item h3 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: var(--accent);
+  color: var(--primary);
   /*Change the color of the heading */
 }
 
