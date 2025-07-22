@@ -1,4 +1,3 @@
-/* filepath: src/styles/styles.css*/
 /*==========================
         Global Styles
   ==========================*/
@@ -301,8 +300,7 @@ header nav a:hover {
 .deployed-link {
   font-size: 1.8rem;
   color: var(--accent);
-  font-weight: 600;
-  /*Make the font thicker */
+  font-weight: 600;  
   padding: 5px 10px;
   border-radius: 4px;
   margin-top: 10px;
@@ -316,16 +314,16 @@ header nav a:hover {
 
 /*Portfolio Project Images */
 .weather-dashboard {
-  background-image: url('/assets/images/Weather-Dash-Board.png'); /* Corrected path */
+  background-image: url('/assets/images/new-weather-cap.png'); 
   background-position: center;
 }
 
 .employee-tracker {
-  background-image: url('/assets/images/employeetracker.png'); /* Corrected path */
+  background-image: url('/assets/images/employeetracker.png'); 
 }
 
 .portfolio-early {
-  background-image: url('/assets/images/portfolio-early.jpg'); /* Corrected path */
+  background-image: url('/assets/images/portfolio-early.jpg');
   background-position: center top;
 }
 
@@ -334,17 +332,17 @@ header nav a:hover {
 }
 
 .seo-optimization {
-  background-image: url('/assets/images/SEO-HTML-Live.jpg'); /* Corrected path */
+  background-image: url('/assets/images/SEO-HTML-Live.jpg'); 
   background-position: center bottom;
 }
 
 .payroll-tracker {
-  background-image: url('/assets/images/payroll-tracker.jpg'); /* Corrected path */
+  background-image: url('/assets/images/payroll-tracker.jpg'); 
   background-position: center bottom;
 }
 
 /*==========================
-       Contact Styles
+      Contact Styles
   ==========================*/
 .contact__content {
   display: flex;

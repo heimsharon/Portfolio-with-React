@@ -29,7 +29,9 @@ _A single-page portfolio app built with React, Vite, and TypeScript, featuring p
     - [Video Link](#video-link)
   - [License](#license)
   - [Notes](#notes)
-  - [Contributing, Support, and FAQ](#contributing-support-and-faq)
+  - [Contributions](#contributions)
+  - [Support](#support)
+    - [FAQ](#faq)
   - [Acknowledgments](#acknowledgments)
   - [Author](#author)
 
@@ -43,30 +45,30 @@ This portfolio is a single-page application (SPA) built using React and Vite. It
 
 ## Features
 
--   **About Me:** Short bio and profile photo.
--   **Portfolio:** Six featured projects with titles, GitHub links, and deployed app links.
--   **Contact Form:** Name, email, and message fields with validation.
--   **Resume:** Downloadable resume and a list of technical proficiencies.
--   **Footer:** Social links to GitHub, LinkedIn, and Stack Overflow.
+- **About Me:** Short bio and profile photo.
+- **Portfolio:** Six featured projects with titles, GitHub links, and deployed app links.
+- **Contact Form:** Name, email, and message fields with validation.
+- **Resume:** Downloadable resume and a list of technical proficiencies.
+- **Footer:** Social links to GitHub, LinkedIn, and Stack Overflow.
 
 ---
 
 ## Prerequisites
 
--   [Node.js](https://nodejs.org/) (v18 or higher)
--   [npm](https://www.npmjs.com/) (comes with Node.js)
--   A modern web browser
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A modern web browser
 
 ---
 
 ## Technologies Used
 
--   [React](https://reactjs.org/)
--   [Vite](https://vitejs.dev/)
--   [TypeScript](https://www.typescriptlang.org/)
--   [React Router DOM](https://reactrouter.com/)
--   [React Icons](https://react-icons.github.io/react-icons/)
--   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (custom styles)
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (custom styles)
 
 ---
 
@@ -99,7 +101,8 @@ This portfolio is a single-page application (SPA) built using React and Vite. It
     ```
 
 4. **Open your browser and visit:**
-    ```
+
+    ```bash
     http://localhost:5173
     ```
 
@@ -107,10 +110,10 @@ This portfolio is a single-page application (SPA) built using React and Vite. It
 
 ## Usage
 
--   Use the navigation bar to explore the About Me, Portfolio, Contact, and Resume sections.
--   View project details and links in the Portfolio section.
--   Submit a message using the Contact form (client-side validation included).
--   Download the resume from the Resume section.
+- Use the navigation bar to explore the About Me, Portfolio, Contact, and Resume sections.
+- View project details and links in the Portfolio section.
+- Submit a message using the Contact form (client-side validation included).
+- Download the resume from the Resume section.
 
 ---
 
@@ -143,21 +146,30 @@ See the [MIT License text](https://opensource.org/licenses/MIT) for full details
 
 ## Notes
 
--   The codebase is commented for educational purposes and future reference.
--   The GitHub repository allows you to download, fork, or contribute to the project as needed.
+- The codebase is commented for educational purposes and future reference.
+- The GitHub repository allows you to download, fork, or contribute to the project as needed.
 
 ---
 
-## Contributing, Support, and FAQ
+## Contributions
 
--   **Contributions:** Pull requests are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
--   **Support:** If you encounter any issues or have suggestions, please open an issue on GitHub.
--   **FAQ:**
-    -   _How do I run the program?_
-        See the [Installation](#installation) and [Usage](#usage) sections above.
-    -   _Can I use this for my own project?_
-        Yes, this project is MIT licensed. See the [License](#license) section.
-    -   _I'm having trouble running the app!_
+  Pull requests are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
+
+---
+
+## Support
+
+ If you encounter any issues or have suggestions, please open an issue on GitHub.
+
+---
+
+### FAQ
+
+- How do I run the program?
+    See the [Installation](#installation) and [Usage](#usage) sections above.
+- Can I use this for my own project?
+    Yes, this project is MIT licensed. See the [License](#license) section.
+- I'm having trouble running the app!
         -   Double-check your Node.js and npm versions.
         -   Make sure all dependencies are installed.
         -   If you see missing module errors, try running `npm install` again.
