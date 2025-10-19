@@ -1,0 +1,124 @@
+/*==========================
+      Contact Styles
+  ==========================*/
+.contact {
+  background-image: url('/assets/images/contactbig3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light);
+  text-align: center;
+  padding: 20px;
+}
+
+.contact__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.contact__title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: var(--accent);
+}
+
+.contact__content {
+  display: flex; 
+  gap: 2rem;
+}
+
+.contact__description {
+  flex: 1;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact__form {
+  flex: 1;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgba(24, 60, 81, 0.9);
+  color: var(--light);
+  margin: 250px 0 0 -325px;
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 6px 0 12px 0;
+  font-family: inherit;
+}
+
+.contact__input:hover,
+.contact__textarea:hover {
+  border-color: var(--accent);
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.contact__button {
+  background-color: var(--secondary);
+  color: var(--light);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.contact__button:hover {
+  background-color: var(--accent);
+  color: var(--dark);
+}
+
+.contact__error {
+  color: #ff4444;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.contact__error--general {
+  background-color: rgba(255, 68, 68, 0.1);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.contact__success {
+  color: #44ff44;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: rgba(68, 255, 68, 0.1);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.contact__form {
+  max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+}

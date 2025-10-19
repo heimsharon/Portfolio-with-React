@@ -1,0 +1,36 @@
+/*==========================
+      Header Styles
+  ==========================*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  color: var(--light);
+}
+
+header h1 {
+  color: var(--light);
+  background-color: var(--secondary);
+  padding: 5px 10px;
+  font: size 3.5rem;
+}
+
+header nav a {
+  color: var(--light);
+  padding: 10px 15px;
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+  background-color: var(--accent);
+  color: var(--primary);
+}

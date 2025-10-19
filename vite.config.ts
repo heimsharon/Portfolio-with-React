@@ -3,7 +3,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Vite configuration file for React project
+
 export default defineConfig({
     plugins: [react()], // Enable React plugin for Vite
     base: '/', // Set base path for Netlify deployment

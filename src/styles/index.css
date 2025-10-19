@@ -1,0 +1,10 @@
+/* Global styles and variables */
+@import './globals.css';
+
+/* Component styles */
+@import './header.css';
+@import './about-me.css';
+@import './portfolio.css';
+@import './contact.css';
+@import './resume.css';
+@import './social-footer.css';

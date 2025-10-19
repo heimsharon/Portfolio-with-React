@@ -1,0 +1,211 @@
+/*==========================
+        Global Styles
+  ==========================*/
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #183c51;
+  /* Dark Blue */
+  --secondary: #716d08;
+  /* Green */
+  --accent: #fcca46;
+  /* Yellow */
+  --neutral: #a1c181;
+  /* Light Green */
+  --muted: #366552;
+  /* Teal */
+  --light: #cbc6b7;
+  /* Light Background */
+  --dark: #1a1a1a;
+  /* Dark Text */
+}
+
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark);
+  background-color: var(--light);
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/*==========================
+        Section Styles
+  ==========================*/
+.section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.section>h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 4vw;
+  line-height: 1.1;
+}
+
+.section>div {
+  flex: 0 0 77%;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+/*==========================
+      Error Styles
+  ===========================*/
+.error {
+  color: rgba(192, 48, 48, 0.906);
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: block;
+}
+
+/*==========================
+      Responsive Design
+  ==========================*/
+@media (max-width: 768px) {
+  .flex-item {
+    flex-basis: 100%;
+  }
+
+  .social__links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__form {
+    margin: 20px auto;
+    /*Center the box horizontally and add space at the top */
+  }
+
+  .contact__content {
+    flex-direction: column;
+    /*Stack the <p> and form vertically */
+    align-items: center;
+    /*Center align the content */
+  }
+
+  .contact__content p {
+    text-align: center;
+    /*Center the text */
+    margin-bottom: 20px;
+    /*Add spacing below the <p> */
+  }
+
+  .contact__form {
+    width: 100%;
+    /*Make the form take up the full width */
+    max-width: none;
+    /*Remove the max-width restriction */
+  }
+
+  .flex-item {
+    flex: 1 1 calc(50% - 20px);
+    /*Make items take up 50% of the container width */
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .portfolio-item {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    /* Stack the header content vertically */
+    align-items: center;
+    /* Center align the items */
+    padding: 10px;
+    /* Adjust padding for smaller screens */
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    /* Stack the navigation links vertically */
+    align-items: center;
+    /* Center align the links */
+    gap: 10px;
+    /* Add spacing between links */
+  }
+
+  header nav a {
+    padding: 10px 0;
+    /* Adjust padding for better spacing */
+    font-size: 1.2rem;
+    /* Adjust font size for smaller screens */
+  }
+
+  /* Add margin to the content below the header */
+  body {
+    margin-top: calc(10px + 100px);
+    /* Adjust based on the header's height */
+  }
+
+  .section {
+    padding: 10% 5%;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  
+  /* Global form styles */
+  input, textarea, button {
+      font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+@media (max-width: 480px) {
+  .section>h2 {
+    font-size: 7vw;
+    text-align: left;
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    margin-bottom: 20px;
+  }
+
+  .flex-item {
+    flex: 1 1 100%;
+    /*Make items take up the full width of the container */
+  }
+}

@@ -1,0 +1,102 @@
+/*==========================
+    Social & Footer Component Styles
+==========================*/
+
+/* Social Component Styles */
+.social__links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__link {
+    color: var(--light);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social__link:hover {
+    background-color: var(--accent);
+    color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.social__link--github {
+    background-color: #333;
+}
+
+.social__link--github:hover {
+    background-color: #555;
+}
+
+.social__link--linkedin {
+    background-color: #0077b5;
+}
+
+.social__link--linkedin:hover {
+    background-color: #0099d9;
+}
+
+.social__link--stackoverflow {
+    background-color: #f48024;
+}
+
+.social__link--stackoverflow:hover {
+    background-color: #ff9a47;
+}
+
+/* Footer Component Styles */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--light);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__content p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Footer-specific social link overrides */
+.footer .social__link {
+    background-color: transparent;
+    color: var(--accent);
+    font-size: 1.2rem;
+    padding: 0.3rem 0.8rem;
+}
+
+.footer .social__link:hover {
+    color: var(--secondary);
+    background-color: transparent;
+    transform: none;
+}
+
+/* Override platform colors in footer */
+.footer .social__link--github,
+.footer .social__link--linkedin,
+.footer .social__link--stackoverflow {
+    background-color: transparent;
+}
+
+.footer .social__link--github:hover,
+.footer .social__link--linkedin:hover,
+.footer .social__link--stackoverflow:hover {
+    background-color: transparent;
+    color: var(--secondary);
+}

@@ -1,0 +1,71 @@
+/*==========================
+    About Me Styles
+==========================*/
+.about-me {
+    background-image: url('/assets/images/infodesk5.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light);
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.about-me__content {
+    background-color: rgba(9, 0, 0, 0.7);
+    /*Semi-transparent overlay */
+    padding: 20px;
+    max-width: 80%;
+    font-size: 1.3rem;
+    ;
+    text-align: center;
+    color: var(--light);
+    position: relative;
+    /*Positioning for pseudo-elements */
+}
+
+.about-me__content::before,
+.about-me__content::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    /*Width of the corner decoration */
+    height: 20px;
+    /*Height of the corner decoration */
+    border: 3px solid rgb(172, 153, 42);
+    /*Gold border */
+    z-index: 1;
+}
+
+.about-me__content::before {
+    top: -5px;
+    /*Adjust to position above top-right corner */
+    right: -5px;
+    /*Adjust to position right of top-right corner */
+    border-left: none;
+    border-bottom: none;
+}
+
+.about-me__content::after {
+    bottom: -5px;
+    /*Adjust to position below bottom-left corner */
+    left: -5px;
+    /*Adjust to position left of bottom-left corner */
+    border-right: none;
+    border-top: none;
+}
+
+.about-me__image {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+    z-index: 10;
+}
