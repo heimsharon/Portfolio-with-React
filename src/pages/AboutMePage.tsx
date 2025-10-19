@@ -11,7 +11,7 @@ export default function AboutMe() {
                 <h1>About Me</h1>
 
                 <p>
-                    Over the past 24 as a paramedic in both pre-hospital and hospital
+                    Over the past 24 years as a paramedic in both pre-hospital and hospital
                     environments, I witnessed healthcare evolve from handwritten charting
                     to real-time AI-assisted documentation - and saw firsthand how critical
                     software has become to patient care. As these systems were consistently
