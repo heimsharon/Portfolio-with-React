@@ -11,28 +11,28 @@ export default function AboutMe() {
                 <h1>About Me</h1>
 
                 <p>
-                    For 24 years, I worked as a paramedic - first as a first responder
-                    in 911 and inter-facility systems, and later in a hospital environment,
-                    where I was surrounded by increasingly advanced medical technology. That
-                    experience gave me a front-row seat to how software and digital
-                    systems impact not just emergency care, but also the everyday lives
-                    of patients and their families.
+                    Over the past 24 as a paramedic in both pre-hospital and hospital
+                    environments, I witnessed healthcare evolve from handwritten charting
+                    to real-time AI-assisted documentation - and saw firsthand how critical
+                    software has become to patient care. As these systems were consistently
+                    refined and updated for real-world needs, I actively engaged with the
+                    technology behind them - and discovered a passion for improving it.
                 </p>
                 <p>
-                    Seeing how technology could streamline care, improve outcomes, and support
-                    both patients and medical teams is what first sparked my interest in
-                    software development. I wanted to move from simply using these tools-
-                    to designing and building them.
+                    I saw how powerful well-designed digital tools could be in streamlining
+                    care, improving outcomes, and supporting medical teams - and I knew I
+                    wanted to contribute to that impact from the engineering side. That
+                    realization drove me to pursue software development with purpose and
+                    intention.
                 </p>
                 <p>
-                    That curiosity led me to study web development, and I graduated from the
-                    Full Stack Web Development Boot Camp at the University of Florida, where I
-                    learned to create modern, responsive applications across both front-end and
-                    back-end systems
+                    I went on to graduated from the Full Stack Web Development Boot Camp
+                    at the University of Florida, where I built modern, responsive, full
+                    stack applications using industry-standard tools and practices.
                 </p>
-                <p> Today, I bring a problem-solving mindset shaped by healthcare experience
-                    into technology-focused on building intuitive, efficient, and meaningful
-                    digital experiences
+                <p> Today, I leverage my healthcare experience and engineering training to
+                    build intuitive, efficient, and meaningful digital experiences that make
+                    a real difference.
                 </p>
             </div>
         </div>
