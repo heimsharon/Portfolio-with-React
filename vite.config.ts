@@ -1,5 +1,3 @@
-// This file defines a React functional component that renders social media links.
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -10,7 +8,7 @@ export default defineConfig({
     build: {
         outDir: 'dist', // Output directory for the build
         assetsDir: 'assets', // Directory for static assets
-        rollupOptions: {
+        rolldownOptions: {
             output: {
                 // Naming pattern for entry JS files
                 entryFileNames: 'assets/[name].[hash].js',
