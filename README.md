@@ -5,7 +5,7 @@ _A single-page portfolio app built with React, Vite, and TypeScript, featuring p
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 ![Netlify Deploy](https://img.shields.io/badge/Deployed-Netlify-blue)
 ![React](https://img.shields.io/badge/React-18+-blue)
-![Vite](https://img.shields.io/badge/Vite-6+-purple)
+![Vite](https://img.shields.io/badge/Vite-8+-purple)
 ![Student Project](https://img.shields.io/badge/student_project-s_heim-yellow)
 
 **Live Demo:** [Portfolio on Netlify](https://sharon-heim-portfolio.netlify.app/)
@@ -84,7 +84,7 @@ This portfolio is a single-page application (SPA) built using React and Vite. It
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/portfolio-with-react.git
+    git clone https://github.com/heimsharon/Portfolio-with-React.git
     cd portfolio-with-react
     ```
 
@@ -189,4 +189,4 @@ For questions or suggestions, please visit my [GitHub profile](https://github.co
 
 ---
 
-© 2025 Sharon Heim
+© 2026 Sharon Heim
